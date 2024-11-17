@@ -15,4 +15,4 @@ psycopg2==2.9.10         # via aiopg
 pyyaml==3.13
 trafaret-config==2.0.2
 trafaret==1.2.0
-yarl==1.17.1               # via aiohttp
+#yarl==1.17.1               # via aiohttp
