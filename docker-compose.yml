@@ -9,7 +9,7 @@ services:
       - 5432:5432
 
   redis:
-    image: redis:alpine
+    image: redis:alpine@sha256:73734b014e53b3067916918b70718ca188c16895511a272a020c9a71084eecda
 
   sqli:
     build:
