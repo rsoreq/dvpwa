@@ -1,4 +1,4 @@
-FROM postgres:9.6.15-alpine
+FROM postgres:9.6.15-alpine@sha256:a8d36bd2f4af670c856f33790964ffd74066a8436391c6056f6d0deb7bd71cdb
 
 ENV POSTGRES_DB sqli
 COPY ./migrations/* /docker-entrypoint-initdb.d/
