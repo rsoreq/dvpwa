@@ -5,7 +5,7 @@ aiopg==0.15.0
 aioredis==1.2.0
 async-timeout==3.0.1      # via aiohttp, aioredis
 attrs==18.2.0             # via aiohttp
-chardet==3.0.4            # via aiohttp
+chardet==7.6.0            # via aiohttp
 hiredis==0.3.1            # via aioredis
 idna==2.10                 # via yarl
 jinja2==2.11.3              # via aiohttp-jinja2
