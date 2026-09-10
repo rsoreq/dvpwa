@@ -10,7 +10,7 @@ hiredis==0.3.1            # via aioredis
 idna==2.10                 # via yarl
 jinja2==2.11.3              # via aiohttp-jinja2
 markupsafe==1.1.0         # via jinja2
-multidict==4.5.2          # via aiohttp, yarl
+multidict==6.8.0          # via aiohttp, yarl
 psycopg2==2.9.11         # via aiopg
 pyyaml==3.13
 trafaret-config==2.0.2
